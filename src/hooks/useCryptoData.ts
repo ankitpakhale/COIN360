@@ -6,7 +6,7 @@ const API_PROXY_URL = "http://localhost:3000/api/proxy";
 const UPDATE_INTERVAL = 1500; // 1.5 seconds
 
 // Toggle this to enable/disable test mode
-const IS_TEST_MODE = false;
+const IS_TEST_MODE = true;
 
 // Simulate real-time fluctuations in test mode
 const simulateRealtimeFluctuations = (
