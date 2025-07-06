@@ -1,0 +1,34 @@
+# Node modules
+node_modules/
+
+# Build output
+.next/
+out/
+
+# Production environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Optional: Vercel deployment folder (if using Vercel CLI locally)
+.vercel/
+
+# Optional: VSCode settings (if using VSCode and want to ignore workspace config)
+.vscode/
+
+# Optional: Dependency lock files (if using only one package manager, exclude others)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
