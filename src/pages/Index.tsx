@@ -95,7 +95,7 @@ const Index = () => {
           </div>
         </div>
 
-        <CryptoTable data={data} loading={loading} />
+        <CryptoTable data={data} loading={isOnline ? loading : true} />
 
         {error && data.length > 0 && (
           <Card className="mt-4 p-4 border-destructive bg-destructive/10">
